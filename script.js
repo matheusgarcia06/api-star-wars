@@ -63,5 +63,5 @@ function displayResults(data, value) {
 }
 
 document.querySelector('.buttons').addEventListener('click', (e) => {
-	asyncFetch(e.target.textContent.trim().toLowerCase());
+	asyncFetch(e.target.textContent.toLowerCase());
 });
