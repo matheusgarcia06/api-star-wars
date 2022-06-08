@@ -43,3 +43,37 @@
 .btn:hover {
     background: #5848c2;
 }
+
+.card-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    grid-gap: 15px;
+}
+
+.card {
+    font-size: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding: 10px;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card-content {
+    font-size: 5px;
+    margin-top: 2px;
+}
+
+.card-content span {
+    line-height: 2;
+}
