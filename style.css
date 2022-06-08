@@ -18,4 +18,28 @@
 
   .image img{
     width: 50px;
+    margin-right: 6px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.btn {
+    font-size: 5px;
+    background: #6654da;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    color: white;
+    padding: 0.2rem .4rem;
+    margin-top: 2rem;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background: #5848c2;
 }
